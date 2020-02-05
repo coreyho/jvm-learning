@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adfb261b-50e0-42b3-9e2b-aaa41cc69eeb" name="Default Changelist" comment="" />
+    <list default="true" id="adfb261b-50e0-42b3-9e2b-aaa41cc69eeb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/corey/classloadering/MyTest11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/corey/classloadering/MyTest12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/corey/classloadering/MyTest13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/corey/classloadering/MyTest14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/corey/classloadering/MyTest5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/corey/classloadering/MyTest6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../笔记/JVM 类加载器.md" beforeDir="false" afterPath="$PROJECT_DIR$/../笔记/JVM 类加载器.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +40,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -38,9 +52,12 @@
     </option>
   </component>
   <component name="ProjectId" id="1XIY5uzZxbPIwRZMiPNlffb13RG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.4852941" />
@@ -58,9 +75,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyTest4">
-    <configuration name="MyTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corey.classloadering.MyTest2" />
+  <component name="RunManager" selected="Application.MyTest14">
+    <configuration name="MyTest11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corey.classloadering.MyTest11" />
       <module name="jvm" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corey.classloadering.MyTest3" />
+    <configuration name="MyTest12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corey.classloadering.MyTest12" />
       <module name="jvm" />
       <extension name="coverage">
         <pattern>
@@ -85,10 +102,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corey.classloadering.MyTest4" />
+    <configuration name="MyTest13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corey.classloadering.MyTest13" />
       <module name="jvm" />
-      <option name="VM_PARAMETERS" value="-XX:+TraceClassLoading" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="corey.classloadering.*" />
@@ -99,10 +115,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corey.classloadering.TestClass1" />
+    <configuration name="MyTest14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corey.classloadering.MyTest14" />
       <module name="jvm" />
-      <option name="VM_PARAMETERS" value="-XX:+TraceClassLoading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corey.classloadering.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corey.classloadering.MyTest8" />
+      <module name="jvm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="corey.classloadering.*" />
@@ -114,17 +142,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestClass1" />
-      <item itemvalue="Application.MyTest2" />
-      <item itemvalue="Application.MyTest3" />
-      <item itemvalue="Application.MyTest4" />
+      <item itemvalue="Application.MyTest8" />
+      <item itemvalue="Application.MyTest11" />
+      <item itemvalue="Application.MyTest12" />
+      <item itemvalue="Application.MyTest13" />
+      <item itemvalue="Application.MyTest14" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyTest4" />
-        <item itemvalue="Application.MyTest3" />
-        <item itemvalue="Application.MyTest2" />
-        <item itemvalue="Application.TestClass1" />
+        <item itemvalue="Application.MyTest14" />
+        <item itemvalue="Application.MyTest13" />
+        <item itemvalue="Application.MyTest12" />
+        <item itemvalue="Application.MyTest11" />
+        <item itemvalue="Application.MyTest8" />
       </list>
     </recent_temporary>
   </component>
@@ -139,10 +169,22 @@
       <option name="presentableId" value="Default" />
       <updated>1580734895944</updated>
       <workItem from="1580734898455" duration="3927000" />
+      <workItem from="1580788007232" duration="4390000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
